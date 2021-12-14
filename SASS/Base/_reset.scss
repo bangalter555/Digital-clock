@@ -1,0 +1,19 @@
+@use "../Utils/colors" as c;
+
+:root {
+  font-family: "Readex Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  transition: 100ms ease;
+}
+
+.body {
+  height: 100vh;
+  background-color: c.$bg-color;
+  color: c.$main-white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

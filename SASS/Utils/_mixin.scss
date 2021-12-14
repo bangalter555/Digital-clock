@@ -1,0 +1,14 @@
+@use "../Utils/colors" as c;
+
+@mixin styles {
+  background-color: c.$bg-color;
+  color: c.$main-white;
+}
+
+@mixin buttons {
+  width: 20%;
+  height: 15%;
+  padding: 2%;
+  border: solid 1px c.$main-white;
+  border-radius: 2%;
+}

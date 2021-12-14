@@ -1,0 +1,19 @@
+@use "../Utils/mixin" as m;
+@use "../Utils/colors" as c;
+
+.buttons {
+  @include m.styles;
+  @include m.buttons;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-text {
+  color: c.$main-white;
+}
+
+#clock {
+  transition: 100ms ease;
+  font-size: 2rem;
+}
